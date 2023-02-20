@@ -116,9 +116,3 @@ h2{
   background-color: #000;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
