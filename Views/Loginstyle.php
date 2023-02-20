@@ -91,3 +91,54 @@ padding: 10px;
 margin-left: 10px;
 width: 90%;
 }
+#login-card {
+width: 400px;
+border-radius: 30px;
+margin: 150px auto;
+height: 350px;
+
+}
+
+#email {
+color: white;
+display: block;
+font-family: inherit;
+font-size: 18px;
+padding: 10px;
+margin-top: -120px;
+margin-left: 10px;
+width: 300px;
+font-family: unbounded;
+}
+
+#password {
+color: white;
+display: block;
+font-family: unbounded;
+font-size: 18px;
+padding: 10px;
+margin-top: 10px;
+margin-left: 10px;
+width: 300px;
+}
+#button{
+background-color: #997300;
+border: 2px solid #997300;
+border-radius: 4px;
+color: #fff;
+display: block;
+font-family: inherit;
+font-size: 16px;
+padding: 10px;
+margin-top: 90px;
+margin-left: 30px;
+width: 320px;
+cursor: pointer;
+}
+.inner-container a{
+  color: white;
+  font-family: unbounded;
+  font-size: 13px;
+  margin-left: 250px;
+  
+}
