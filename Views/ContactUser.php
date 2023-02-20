@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Museum</title>
-    <link rel="stylesheet" href="Contactstyle.php">
+    <link rel="stylesheet" href="ContactUserStyle.php">
 </head>
 <body>
     <header><a href="HomeUser.php">MuseumEX</a></header>
