@@ -1,5 +1,9 @@
 <?php
 
+include_once '../Services/UserService.php';
+include_once '../Models/RegisterUser.php';
+include_once '../Models/LoginUser.php';
+
 if ($_SERVER['REQUEST_METHOD']==='POST')
 {
     if(isset($_POST['registerButton']))
