@@ -123,3 +123,86 @@ background-color: #171c24;
     margin-left: 10px;
       width: 90%;
     }
+    #login-card {
+      width: 400px;
+      border-radius: 30px;
+      margin: 150px auto;
+      height: 350px;
+    
+  }
+  #name {
+    color: white;
+    display: block;
+    font-family: unbounded;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+  margin-left: 10px;
+    width: 300px;
+}
+#surname {
+    color: white;
+    display: block;
+    font-family: unbounded;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;
+  margin-left: 10px;
+    width: 300px;
+}
+  
+  #email {
+    color: white;
+      display: block;
+      font-family: inherit;
+      font-size: 18px;
+      padding: 10px;
+      margin-top: 5px;
+    margin-left: 10px;
+      width: 300px;
+    font-family: unbounded;
+  }
+  
+  #password {
+      color: white;
+      display: block;
+      font-family: unbounded;
+      font-size: 18px;
+      padding: 10px;
+      margin-top: 5px;
+    margin-left: 10px;
+      width: 300px;
+  }
+  #confirm {
+    color: white;
+    display: block;
+    font-family: unbounded;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;
+  margin-left: 10px;
+    width: 300px;
+}
+  #button{
+    background-color: #997300;
+    border: 2px solid #997300;
+      border-radius: 4px;
+      color: #fff;
+      display: block;
+      font-family: inherit;
+      font-size: 16px;
+      padding: 10px;
+      margin-top: 30px;
+    margin-left: 30px;
+      width: 320px;
+    cursor: pointer;
+  }
+  #p1 a{
+    color:white;
+    font-family: unbounded;
+  }
+  #p1{
+    font-family: unbounded;
+    font-size: 13px;
+    margin-left: 10px;
+  }
