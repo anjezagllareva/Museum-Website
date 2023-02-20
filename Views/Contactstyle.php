@@ -68,3 +68,30 @@ background-color: #171c24;
   font-size: 30px;
   font-family: unbounded;
 }
+.contact-form .btnContact {
+  width: 30%;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #171c24;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 240px;
+  margin-top:5px;
+
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #171c24;
+  border: none;
+  cursor: pointer;
+}
+.form-group1{
+  width:400px;
+  margin-left:120px;
+}
