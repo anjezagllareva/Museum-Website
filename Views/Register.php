@@ -15,6 +15,7 @@
         <div class="inner-container">
       <div id="register-card" class="card">
         <div class="card-body">
+        <form method="post" id="form" class="form" name="registerForm">
             <div class="form-group-name">
               <label for="name" id="name">Name</label>
                 <input type="name" class="form-control" id = "name-input" placeholder="Write name" name="Name" required>
@@ -38,6 +39,8 @@
             <button type="submit" id="button" class="btn" name ="registerButton"
                 onclick="validateFormRegister()">Register</button>
                 <p id="p1">You have an account?<a href="Login.php"> Login</a></p>
+            </form>
+              <?php include_once '../Controllers/UserController.php';?>
 
             <script src="register.js"></script>
           </div>
