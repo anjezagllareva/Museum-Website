@@ -28,6 +28,7 @@
             <button type="submit" id="button" class="btn" name ="loginButton"
                 onclick="validateForm()">Login</button>
             </form>
+            <?php include_once '../Controllers/UserController.php';?>
                 <a href="Register.php"> Register?</a></p>
                 
             <script src="login.js"></script>
