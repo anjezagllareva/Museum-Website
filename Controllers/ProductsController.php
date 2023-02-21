@@ -1,4 +1,6 @@
 <?php
+include_once '../Services/ProductService.php';
+include_once '../Models/Product.php';
 
 if ($_SERVER['REQUEST_METHOD']==='POST')
 {
