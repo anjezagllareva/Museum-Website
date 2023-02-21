@@ -1,5 +1,7 @@
 <?php 
 
+include_once '../Database/DatabaseConnection.php';
+
 class MuseumsService{
     private $connection;
 
