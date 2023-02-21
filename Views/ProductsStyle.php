@@ -98,3 +98,33 @@ body{
       text-align:center;
       
     }
+    table tr th
+    {
+      color: black;
+      text-shadow: 1px 1px white;
+      font-size:22px;
+      
+    }
+
+    td
+    {
+      color: black;
+      font-size:18px;
+      
+    }
+
+    td a 
+    {
+      text-decoration:none;
+      color:red;
+      
+    }
+    table{
+      background:#997300;
+      margin-left:100px;
+      border:2px solid white;
+    }
+  #button
+  {
+margin-left:100px;
+  }
