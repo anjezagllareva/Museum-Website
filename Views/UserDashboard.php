@@ -35,5 +35,37 @@
     <div class = "header">
       <h1>Users Dashboard</h1>
     </div>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Role</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <?php
+        include_once '../Services/UserService.php';
+        $userService  = new UserService();
+        $users = $userService->getAllUsers();
+        foreach($users as $user){
+           echo 
+           "
+           <tr>
+               <td>$user[Id]</td>
+               <td>$user[Name]</td>
+               <td>$user[Surname]</td>
+               <td>$user[Email]</td>
+               <td>$user[Password]</td>
+               <td>$user[Role]</td>
+               <td><a href='EditUser.php?Id=$user[Id]'>Edit</a></td>
+               <td><a href='DeleteUser.php?Id=$user[Id]'>Delete</a></td>
+
+           </tr>
+           ";
+        }
+        ?>
     </body>
     </html>
