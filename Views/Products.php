@@ -28,5 +28,34 @@
     <div class = "header">
       <h1>Products</h1>
     </div>
+    <button type="submit" id="button" class="btn" name ="addProduct"
+                onclick="location.href = 'AddNewProduct.php'">Add New Product</button>
+                <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+        <?php
+        include_once '../Services/ProductService.php';
+        $productsService  = new ProductService();
+        $products = $productsService->getAllProducts();
+        foreach($products as $product){
+           echo 
+           "
+           <tr>
+               <td>$product[Id]</td>
+               <td>$product[Name]</td>
+               <td>$product[Author]</td>
+               <td>$product[Description]</td>
+               <td><img src='Images/$product[Image]' width = 100px> </td>
+               <td>$product[Price]</td>
+           </tr>
+           ";
+        }
+        ?>
     </body>
     </html>
