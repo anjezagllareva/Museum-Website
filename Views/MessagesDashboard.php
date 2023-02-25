@@ -36,9 +36,6 @@
     <div class = "header">
       <h1>Messages Dashboard</h1>
     </div>
-    <div class = "header">
-      <h1>Messages Dashboard</h1>
-    </div>
     <table border="1">
         <tr>
             <th>ID</th>
