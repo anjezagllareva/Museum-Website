@@ -36,6 +36,38 @@
     <div class = "header">
       <h1>Messages Dashboard</h1>
     </div>
-[13:56]
+    <div class = "header">
+      <h1>Messages Dashboard</h1>
+    </div>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>PhoneNumber</th>
+            <th>Message</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <?php
+        include_once '../Services/MessageService.php';
+        $messageService  = new MessageService();
+        $messages = $messageService->getAllMessages();
+        foreach($messages as $message){
+           echo 
+           "
+           <tr>
+               <td>$message[Id]</td>
+               <td>$message[Name]</td>
+               <td>$message[Email]</td>
+               <td>$message[PhoneNumber]</td>
+               <td>$message[Message]</td>
+               <td><a href='EditMessage.php?Id=$message[Id]'>Edit</a></td>
+               <td><a href='DeleteMessage.php?Id=$message[Id]'>Delete</a></td>
+
+           </tr>
+           ";
+        }
+        ?>
 </body>
     </html>
