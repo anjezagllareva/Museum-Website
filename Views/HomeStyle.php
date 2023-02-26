@@ -343,3 +343,136 @@ iframe[sandbox] .read-article{
   .articles p {
     font-family: 'Times New Roman', Times, serif;
   }
+@media only screen and (max-width:700px){ 
+  
+  body{
+    width:1000px;
+  }
+  header a{
+      font-size:50px;
+      margin-top: 15px;
+      margin-left: 8px;
+  }
+  .navbar{
+    margin-left: 550px;
+    display:flex;
+    margin-top:-29px;
+
+  }
+  .navbar a{
+    font-size:20px;
+    padding: 4px 6px;
+  }
+ .text-container{
+    width:380px;
+    height:100px;
+    margin-left:580px;
+    
+ }
+ .text-container .museum-header{
+    font-size:16px;
+    margin-left:130px;
+    margin-top: -300px;
+  }
+  .text-container .museum-paragraph{
+    font-size:12px;
+    margin-left:20px;
+    margin-top: 5px;
+  }
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow-y: hidden;
+    margin-top:130px;
+  }
+  
+  .slider {
+    width: 50%;
+    max-width: 500px;
+    height: 50%;
+    margin: 40px;
+    margin-left: -440px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  .pages .first-line{
+    margin-top:500px;
+    margin-left:-5px;
+    border-top: 3px solid white;
+    height: 500px;
+    width: 380px;
+  }
+
+  .pages .second-line{
+    margin-left:580px;
+    margin-top:-45px;
+    border-top: 3px solid white;
+    width: 420px;
+  }
+  .pages #page-main-title{
+    margin-left:390px;
+    margin-top:-535px;
+    font-size:28px;
+    color:white;
+    font-family:unbounded;
+    text-shadow: 2px 2px black;
+  }
+  .articles li {
+    background-color: #b5a77d;
+    width:190px;
+    height:400px;
+    margin-left:-9px;
+    margin-top:70px;
+    margin-right: 20px;
+    display: inline-block;
+    box-shadow: 3px 3px white;
+    padding:15px 18px;
+  }
+  .articles li h1{
+    text-align: center;
+    font-size: 16px;
+    font-family:labelleaurore;
+    text-shadow: 1px 2px white;
+    margin-top:10px;
+  }
+  .articles li p {
+    margin-top:10px;
+    margin-left:20px;
+    font-size:15px;
+  }
+  .articles li a{
+    margin-top:100px;
+    margin-left:100px;
+  }
+  .articles li img{
+    width:160px;
+    height:180px;
+    margin-left:15px;
+    margin-top: -8px;
+    border:2px solid black;
+  }
+  footer{
+    margin-top:450px;
+    height:60px; 
+  }
+  footer img{
+    border-radius: 100%;
+    width:60px;
+    height:60px;
+    margin-left:10px;
+    display: inline-block;
+  }
+}
