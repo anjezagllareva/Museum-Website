@@ -435,7 +435,7 @@ iframe[sandbox] .read-article{
     width:190px;
     height:400px;
     margin-left:-9px;
-    margin-top:70px;
+    margin-top:80px;
     margin-right: 20px;
     display: inline-block;
     box-shadow: 3px 3px white;
@@ -450,7 +450,7 @@ iframe[sandbox] .read-article{
   }
   .articles li p {
     margin-top:10px;
-    margin-left:20px;
+    margin-left:10px;
     font-size:15px;
   }
   .articles li a{
@@ -461,7 +461,7 @@ iframe[sandbox] .read-article{
     width:160px;
     height:180px;
     margin-left:15px;
-    margin-top: -8px;
+    margin-top: 15px;
     border:2px solid black;
   }
   footer{
