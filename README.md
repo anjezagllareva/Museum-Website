@@ -3,13 +3,13 @@ Description:
 Designed and developed a comprehensive Museum website as my first university project, utilizing PHP without a framework and following the MVC (Model-View-Controller) architectural pattern. The website serves as an informative platform showcasing renowned museums worldwide, along with detailed information about the artworks housed within them.
 
 Key Features:
-Informative Content: Implemented a user-friendly interface to provide detailed insights into famous museums, their histories, and the remarkable artworks exhibited.
+~Informative Content: Implemented a user-friendly interface to provide detailed insights into famous museums, their histories, and the remarkable artworks exhibited.
 
-MVC Architecture: Designed the project following the MVC model, ensuring a modular and maintainable codebase. The separation of concerns facilitated code organization and scalability.
+~MVC Architecture: Designed the project following the MVC model, ensuring a modular and maintainable codebase. The separation of concerns facilitated code organization and scalability.
 
-Dynamic Content Management: Developed an intuitive content management system to easily update and manage information about museums and their featured artworks.
+~Dynamic Content Management: Developed an intuitive content management system to easily update and manage information about museums and their featured artworks.
 
-Responsive Design: Ensured optimal user experience across devices by implementing a responsive design, allowing users to access information seamlessly on desktops, tablets, and mobile devices.
+~Responsive Design: Ensured optimal user experience across devices by implementing a responsive design, allowing users to access information seamlessly on desktops, tablets, and mobile devices.
 
 Technologies Used:
 Backend: PHP for server-side scripting
